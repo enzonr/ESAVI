@@ -7,7 +7,9 @@ Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos si
 
 Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
-##Entrada de Datos - Como registrar una persona
+---------------
+
+## Entrada de Datos - Como registrar una persona
 
 ### 1) Abrir la aplicación "registro de datos de seguimiento"
 
@@ -29,6 +31,8 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
 ![Tracker](resources/images/profile2.png)
 
+-----------------------
+
 ## Entrada de Datos – Etapa de clasificación inicial
 
 En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
@@ -41,4 +45,11 @@ En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
 ![Clasificación](resources/images/personanotificadora.png)
 
-### 3)  
+### 3)  MODIFICAR EL RESTO DE LAS INSTRUCCIONES PARA LA ETAPA DE CLASIFICACIón CUANDO ESTÈ LISTA
+
+### 4) Seleccione el botón "completar"
+
+![Clasificación](resources/images/completar.png)
+
+------------------------
+
