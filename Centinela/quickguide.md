@@ -3,7 +3,7 @@ Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos si
 
 ## FLujo de trabajo
 
-![Diagrama del flujo de trabajo](/images/flujo.png)
+![Diagrama del flujo de trabajo](/resources/images/flujo.png)
 
 Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
@@ -11,7 +11,7 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
 ### 1) Abrir la aplicación "registro de datos de seguimiento"
 
-![Tracker](/images/tracker.png)
+![Tracker](/resources/images/tracker.png)
 
 ### 2) Registrar una nueva persona
 
@@ -19,12 +19,12 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 2. Seleccionar el Programa Centinela
 3. Click en "registrar"
 
-![Tracker](/images/enrollmentlist1.png)
+![Tracker](/resources/images/enrollmentlist1.png)
 
 ### 3) Completar los datos de perfil de la persona
 
-![Tracker](/images/profile.png)
+![Tracker](/resources/images/profile.png)
 
 ### 4) Click en "guardar y continuar"
 
-![Tracker](/images/profile2.png)
+![Tracker](/resources/images/profile2.png)
