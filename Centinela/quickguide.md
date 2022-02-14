@@ -19,15 +19,15 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 2. Seleccionar el Programa Centinela
 3. Click en "registrar"
 
-![Tracker](/resources/images/enrollmentlist1.png)
+![Tracker](resources/images/enrollmentlist1.png)
 
 ### 3) Completar los datos de perfil de la persona
 
-![Tracker](/resources/images/profile.png)
+![Tracker](resources/images/profile.png)
 
 ### 4) Click en "guardar y continuar"
 
-![Tracker](/resources/images/profile2.png)
+![Tracker](resources/images/profile2.png)
 
 ## Entrada de Datos – Etapa de clasificación inicial
 
@@ -35,10 +35,10 @@ En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
 ### 1) Seleccionar la etapa de clasificación y seleccionar la fecha de inicio
 
-![Clasificación](/resources/images/clasificacion1.png)
+![Clasificación](resources/images/clasificacion1.png)
 
 ### 2) Completar los datos de la persona notificadora
 
-![Clasificación](/resources/images/personanotificadora.png)
+![Clasificación](resources/images/personanotificadora.png)
 
 ### 3)  
