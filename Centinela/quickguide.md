@@ -70,14 +70,14 @@
 
 >Seleccione o ingrese todos los campos necesarios. Algunos permanecerán ocultos cuando no sean relevantes (Por ejemplo, los campos relacionados al embarazo solo aparecerán cuando se trate de pacientes de sexo femenino.
 
-![Esavi información del paciente](resources/images/esavipaciente.png)
+![Esavi información del paciente](resources/images/ESAVIpaciente.png)
 
 
 ### 3) Complete los datos acerca de la vacuna que pudo estar relacionada con el ESAVI
 
 > En el caso de una vacuna contra COVID-19, complete todas las dosis administradas.
 
-![Esavi Selección de vacuna](resources/images/seleccionvacuna.png)
+![Esavi Selección de vacuna](resources/images/selecciondevacuna.png)
 
 > El nombre de la vacuna, fecha y hora de vacunación y número de lote son campos obligatorios
 
