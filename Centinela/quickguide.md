@@ -4,37 +4,16 @@ Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos si
 
 ## Tabla de contenidos
 
-- [Guía rápida de entrada de datos para el PROGRAMA CENTINELA](#gu-a-r-pida-de-entrada-de-datos-para-el-programa-centinela)
-  * [Flujo de trabajo](#flujo-de-trabajo)
-  * [Entrada de Datos - Como registrar una persona](#entrada-de-datos---como-registrar-una-persona)
-    + [1) Abrir la aplicación "registro de datos de seguimiento"](#1--abrir-la-aplicaci-n--registro-de-datos-de-seguimiento-)
-    + [2) Registrar una nueva persona](#2--registrar-una-nueva-persona)
-    + [3) Completar los datos de perfil de la persona](#3--completar-los-datos-de-perfil-de-la-persona)
-    + [4) Click en "guardar y continuar"](#4--click-en--guardar-y-continuar-)
-  * [Entrada de Datos – Etapa de clasificación inicial](#entrada-de-datos---etapa-de-clasificaci-n-inicial)
-    + [1) Seleccionar la etapa de clasificación y seleccionar la fecha de inicio](#1--seleccionar-la-etapa-de-clasificaci-n-y-seleccionar-la-fecha-de-inicio)
-    + [2) Completar los datos de la persona notificadora](#2--completar-los-datos-de-la-persona-notificadora)
-    + [3)  MODIFICAR EL RESTO DE LAS INSTRUCCIONES PARA LA ETAPA DE CLASIFICACIón CUANDO ESTÈ LISTA](#3---modificar-el-resto-de-las-instrucciones-para-la-etapa-de-clasificaci-n-cuando-est--lista)
-    + [4) Seleccione el botón "completar"](#4--seleccione-el-bot-n--completar-)
-  * [Entrada de Datos – Notificación ESAVI](#entrada-de-datos---notificaci-n-esavi)
-    + [1) Con la etapa de Notificación ESAVI seleccionada, elegir la fecha de notificación ESAVI](#1--con-la-etapa-de-notificaci-n-esavi-seleccionada--elegir-la-fecha-de-notificaci-n-esavi)
-    + [2) Rellenar la información del paciente](#2--rellenar-la-informaci-n-del-paciente)
-    + [3) Complete los datos acerca de la vacuna que pudo estar relacionada con el ESAVI](#3--complete-los-datos-acerca-de-la-vacuna-que-pudo-estar-relacionada-con-el-esavi)
-    + [4) Complete los datos acerca del ESAVI](#4--complete-los-datos-acerca-del-esavi)
-    + [5) Completar el evento dandole click al botón "Completar"](#5--completar-el-evento-dandole-click-al-bot-n--completar-)
-  * [Entrada de datos - Investigación ESAVI](#entrada-de-datos---investigaci-n)
-    + [1) Teniendo la etapa de Investigación seleccionada, hacer click en el ‘+’ para crear un evento](#1--teniendo-la-etapa-de-investigaci-n-seleccionada--hacer-click-en-el-----para-crear-un-evento)
-    + [2) Seleccionar la fecha del reporte y hacer click en “Guardar”](#2--seleccionar-la-fecha-del-reporte-y-hacer-click-en--guardar-)
-    + [3) Rellenar el formulario de investigación con sus datos correspondientes](#3--rellenar-el-formulario-de-investigaci-n-con-sus-datos-correspondientes)
-    + [4) Completar la investigación dándole click al botón "Completar"](#4--completar-la-investigaci-n-d-ndole-click-al-bot-n--completar-)
-  * [Entrada de datos - Nivel Nacional ESAVI](#entrada-de-datos---nivel-nacional)
-    + [1) Teniendo la Etapa “Nivel Nacional” seleccionada, hacer click en el ‘+’](#1--teniendo-la-etapa--nivel-nacional--seleccionada--hacer-click-en-el----)
-    + [2) Seleccionar la fecha del reporte](#2--seleccionar-la-fecha-del-reporte)
-    + [3) Completar la ficha con los datos correspondientes](#3--completar-la-ficha-con-los-datos-correspondientes)
-    + [4) Completar la clasificación a nivel nacional dandole click al botón completar](#4--completar-la-clasificaci-n-a-nivel-nacional-dandole-click-al-bot-n-completar)
-
-
-
+  - [Flujo de trabajo](#flujo-de-trabajo)
+  - [Entrada de Datos - Como registrar una persona](#entrada-de-datos---como-registrar-una-persona)
+  - [Entrada de Datos – Etapa de clasificación inicial](#entrada-de-datos--etapa-de-clasificacion-inicial)
+  - [Entrada de Datos ESAVI – Notificación ESAVI](#entrada-de-datos--notificacion-esavi)
+  - [Entrada de datos ESAVI - Investigación](#entrada-de-datos---investigacion)
+  - [Entrada de datos ESAVI - Nivel Nacional](#entrada-de-datos---nivel-nacional)
+  - [Entrada de datos EVADIE](#entrada-de-datos-evadie)
+  - [Buscar un caso](#buscar-un-caso)
+  - [Como usar filtros](#como-usar-filtros)
+  - [Utilizando la lista de trabajo personalizada](#utilizando-la-lista-de-trabajo-personalizada)
 
 
 ## Flujo de trabajo
@@ -73,7 +52,8 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 -----------------------
 
 
-## Entrada de Datos – Etapa de clasificación inicial
+## Entrada de Datos – Etapa de clasificacion inicial
+
 
 En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
@@ -95,7 +75,8 @@ En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 ------------------------
 
 
-## Entrada de Datos – Notificación ESAVI
+## Entrada de Datos – Notificacion ESAVI
+
 
 ### 1) Con la etapa de Notificación ESAVI seleccionada, elegir la fecha de notificación ESAVI
 
@@ -105,7 +86,7 @@ En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
 >Seleccione o ingrese todos los campos necesarios. Algunos permanecerán ocultos cuando no sean relevantes (Por ejemplo, los campos relacionados al embarazo solo aparecerán cuando se trate de pacientes de sexo femenino.
 
-![Esavi información del paciente](resources/images/ESAVIpaciente.png)
+![Esavi informacion del paciente](resources/images/ESAVIpaciente.png)
 
 
 ### 3) Complete los datos acerca de la vacuna que pudo estar relacionada con el ESAVI
@@ -132,7 +113,7 @@ Seleccione el ESAVI y la fecha de inicio
 
 ------------
 
-## Entrada de datos - Investigación
+## Entrada de datos - Investigacion
 
 > IMPORTANTE: Para que la etapa de Investigación esté habilitada, deberá primero seleccionarse el elemento de datos “¿Se requiere investigación?” en la etapa de notificación ESAVI.
 
