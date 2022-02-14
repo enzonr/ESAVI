@@ -248,3 +248,51 @@ Los nombres de las vacunas están basados en listas predeterminadas, otros datos
 ### 7) Completar el evento
 
 ![Clasificación](resources/images/completar.png)
+
+--------------------------------------
+
+## Buscar un caso
+
+### 1) Estando en la lista de casos, click en el botón "buscar
+
+1. Seleccionar la unidad organizativa
+2. Seleccionar el programa Centinela
+3. Click en BUSCAR
+
+![Buscar](resources/images/buscar.png)
+
+### 2) Ejecutar la busqueda
+
+Ingresar los parámetros deseados y hacer click en la lupa
+
+![Buscar](resources/images/buscar2.png)
+
+### 3) Seleccionar el caso de entre los que aparezcan en la ventana de resultados
+
+![Buscar](resources/images/buscar3.png)
+
+-----------------------
+
+## Como usar filtros
+
+### 1) Estando en la lista de casos, seleccionar uno de los filtros preconfigurados
+
+![Filtros preconfigurados](resources/images/filtros.png)
+
+### 2) Que significan los símbolos?
+
+1. O = Activos 
+2. V = Completos
+3. X = Inscripción cancelada
+
+### 3) Seleccionar la persona de la lista para ir a su perfil
+
+-------------
+
+## Utilizando la lista de trabajo personalizada 
+
+### 1) Seleccionar "lista de trabajo personalizada"
+
+![Lista](resources/images/listapersonalizada.png)
+
+
