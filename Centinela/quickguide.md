@@ -22,18 +22,17 @@ Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos si
     + [3) Complete los datos acerca de la vacuna que pudo estar relacionada con el ESAVI](#3--complete-los-datos-acerca-de-la-vacuna-que-pudo-estar-relacionada-con-el-esavi)
     + [4) Complete los datos acerca del ESAVI](#4--complete-los-datos-acerca-del-esavi)
     + [5) Completar el evento dandole click al botón "Completar"](#5--completar-el-evento-dandole-click-al-bot-n--completar-)
-  * [Entrada de datos - Investigación](#entrada-de-datos---investigaci-n)
+  * [Entrada de datos - Investigación ESAVI](#entrada-de-datos---investigaci-n)
     + [1) Teniendo la etapa de Investigación seleccionada, hacer click en el ‘+’ para crear un evento](#1--teniendo-la-etapa-de-investigaci-n-seleccionada--hacer-click-en-el-----para-crear-un-evento)
     + [2) Seleccionar la fecha del reporte y hacer click en “Guardar”](#2--seleccionar-la-fecha-del-reporte-y-hacer-click-en--guardar-)
     + [3) Rellenar el formulario de investigación con sus datos correspondientes](#3--rellenar-el-formulario-de-investigaci-n-con-sus-datos-correspondientes)
     + [4) Completar la investigación dándole click al botón "Completar"](#4--completar-la-investigaci-n-d-ndole-click-al-bot-n--completar-)
-  * [Entrada de datos - Nivel Nacional](#entrada-de-datos---nivel-nacional)
+  * [Entrada de datos - Nivel Nacional ESAVI](#entrada-de-datos---nivel-nacional)
     + [1) Teniendo la Etapa “Nivel Nacional” seleccionada, hacer click en el ‘+’](#1--teniendo-la-etapa--nivel-nacional--seleccionada--hacer-click-en-el----)
     + [2) Seleccionar la fecha del reporte](#2--seleccionar-la-fecha-del-reporte)
     + [3) Completar la ficha con los datos correspondientes](#3--completar-la-ficha-con-los-datos-correspondientes)
     + [4) Completar la clasificación a nivel nacional dandole click al botón completar](#4--completar-la-clasificaci-n-a-nivel-nacional-dandole-click-al-bot-n-completar)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
@@ -182,3 +181,70 @@ Esta etapa está disponible solo para usuarios con un rol a nivel nacional.
 
 ---------------------------
 
+## Entrada de datos EVADIE
+
+### 1) Seleccionar la etapa de EVADIE y seleccionar la fecha de inicio
+
+![EVADIE](resources/images/clasificacion1.png)
+
+### 2) Rellenar los datos del efecto adverson siguiendo el orden del formulario
+
+1.Marque la(s) opción(es) correspondientes.
+> Cada opción seleccionada desplegará una nueva sección con mas detalles.
+2. Selecciona la fecha y hora del inicio de los síntomas
+3. Describa los síntomas utilizando texto libre
+
+![EVADIE Ficha](resources/images/EVADIEficha.png)
+
+
+### 3)  Rellenar los datos referentes al resultado del EVADIE
+
+1. Seleccionar los resultados del EVADIE
+
+![EVADIE Ficha](resources/images/EVADIEficha.png)
+
+2. Seleccione utilizando la lista desplegable,  el estado del paciente al momento de la identificación del EVADIE
+
+![EVADIE Ficha](resources/images/EVADIEresultados.png)
+
+Seleccione utilizando la lista desplegable,  el estado del paciente al momento de la identificación del EVADIE
+
+![EVADIE Ficha](resources/images/EVADIEresultados2.png)
+
+3. En caso de fallecimiento, se habilita la entrada de datos en los elementos correspondientes 
+
+![EVADIE Ficha](resources/images/EVADIEresultados3.png)
+
+### 4) Rellenar los datos relacionados a la salud general del paciente
+
+1. Seleccionar hasta seis distintas enfermedades previas utilizando las listas.
+
+![EVADIE Ficha](resources/images/EVADIEsaludpaciente.png)
+
+Rellenar datos de embarazo, si corresponde
+
+![EVADIE Ficha](resources/images/EVADIEsaludpaciente2.png)
+
+2. Seleccionar los medicamentos que esté tomando el caso utilizando el buscador, y rellenar los datos correspondientes.
+
+![EVADIE Ficha](resources/images/EVADIEsaludpaciente3.png)
+
+3. Seleccionar los hábitos de consumo 
+
+![EVADIE Ficha](resources/images/EVADIEsaludpaciente4.png)
+
+### 5) Rellenar los datos acerca de las vacunas contra el Covid-19
+
+Los nombres de las vacunas están basados en listas predeterminadas, otros datos son rellenados de manera manual.
+
+![EVADIE Ficha](resources/images/EVADIEvacunas.png)
+
+### 6) Rellenar los datos acerca de otras vacunas recibidas 30 días antes del EVADIE
+
+Los nombres de las vacunas están basados en listas predeterminadas, otros datos son rellenados de manera manual.
+
+![EVADIE Ficha](resources/images/EVADIEvacunas2.png)
+
+### 7) Completar el evento
+
+![Clasificación](resources/images/completar.png)
