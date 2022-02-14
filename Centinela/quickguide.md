@@ -2,7 +2,43 @@
 
 Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos sinó los pasos mas básicos para ingresar un caso en el programa centinela 
 
-## FLujo de trabajo
+## Tabla de contenidos
+
+- [Guía rápida de entrada de datos para el PROGRAMA CENTINELA](#gu-a-r-pida-de-entrada-de-datos-para-el-programa-centinela)
+  * [Flujo de trabajo](#flujo-de-trabajo)
+  * [Entrada de Datos - Como registrar una persona](#entrada-de-datos---como-registrar-una-persona)
+    + [1) Abrir la aplicación "registro de datos de seguimiento"](#1--abrir-la-aplicaci-n--registro-de-datos-de-seguimiento-)
+    + [2) Registrar una nueva persona](#2--registrar-una-nueva-persona)
+    + [3) Completar los datos de perfil de la persona](#3--completar-los-datos-de-perfil-de-la-persona)
+    + [4) Click en "guardar y continuar"](#4--click-en--guardar-y-continuar-)
+  * [Entrada de Datos – Etapa de clasificación inicial](#entrada-de-datos---etapa-de-clasificaci-n-inicial)
+    + [1) Seleccionar la etapa de clasificación y seleccionar la fecha de inicio](#1--seleccionar-la-etapa-de-clasificaci-n-y-seleccionar-la-fecha-de-inicio)
+    + [2) Completar los datos de la persona notificadora](#2--completar-los-datos-de-la-persona-notificadora)
+    + [3)  MODIFICAR EL RESTO DE LAS INSTRUCCIONES PARA LA ETAPA DE CLASIFICACIón CUANDO ESTÈ LISTA](#3---modificar-el-resto-de-las-instrucciones-para-la-etapa-de-clasificaci-n-cuando-est--lista)
+    + [4) Seleccione el botón "completar"](#4--seleccione-el-bot-n--completar-)
+  * [Entrada de Datos – Notificación ESAVI](#entrada-de-datos---notificaci-n-esavi)
+    + [1) Con la etapa de Notificación ESAVI seleccionada, elegir la fecha de notificación ESAVI](#1--con-la-etapa-de-notificaci-n-esavi-seleccionada--elegir-la-fecha-de-notificaci-n-esavi)
+    + [2) Rellenar la información del paciente](#2--rellenar-la-informaci-n-del-paciente)
+    + [3) Complete los datos acerca de la vacuna que pudo estar relacionada con el ESAVI](#3--complete-los-datos-acerca-de-la-vacuna-que-pudo-estar-relacionada-con-el-esavi)
+    + [4) Complete los datos acerca del ESAVI](#4--complete-los-datos-acerca-del-esavi)
+    + [5) Completar el evento dandole click al botón "Completar"](#5--completar-el-evento-dandole-click-al-bot-n--completar-)
+  * [Entrada de datos - Investigación](#entrada-de-datos---investigaci-n)
+    + [1) Teniendo la etapa de Investigación seleccionada, hacer click en el ‘+’ para crear un evento](#1--teniendo-la-etapa-de-investigaci-n-seleccionada--hacer-click-en-el-----para-crear-un-evento)
+    + [2) Seleccionar la fecha del reporte y hacer click en “Guardar”](#2--seleccionar-la-fecha-del-reporte-y-hacer-click-en--guardar-)
+    + [3) Rellenar el formulario de investigación con sus datos correspondientes](#3--rellenar-el-formulario-de-investigaci-n-con-sus-datos-correspondientes)
+    + [4) Completar la investigación dándole click al botón "Completar"](#4--completar-la-investigaci-n-d-ndole-click-al-bot-n--completar-)
+  * [Entrada de datos - Nivel Nacional](#entrada-de-datos---nivel-nacional)
+    + [1) Teniendo la Etapa “Nivel Nacional” seleccionada, hacer click en el ‘+’](#1--teniendo-la-etapa--nivel-nacional--seleccionada--hacer-click-en-el----)
+    + [2) Seleccionar la fecha del reporte](#2--seleccionar-la-fecha-del-reporte)
+    + [3) Completar la ficha con los datos correspondientes](#3--completar-la-ficha-con-los-datos-correspondientes)
+    + [4) Completar la clasificación a nivel nacional dandole click al botón completar](#4--completar-la-clasificaci-n-a-nivel-nacional-dandole-click-al-bot-n-completar)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+
+## Flujo de trabajo
 
 ![Diagrama del flujo de trabajo](resources/images/flujo.png)
 
