@@ -3,7 +3,7 @@ Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos si
 
 ## FLujo de trabajo
 
-![Diagrama del flujo de trabajo](/resources/images/flujo.png)
+![Diagrama del flujo de trabajo](resources/images/flujo.png)
 
 Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
@@ -11,7 +11,7 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
 ### 1) Abrir la aplicación "registro de datos de seguimiento"
 
-![Tracker](/resources/images/tracker.png)
+![Tracker](resources/images/tracker.png)
 
 ### 2) Registrar una nueva persona
 
@@ -28,3 +28,17 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 ### 4) Click en "guardar y continuar"
 
 ![Tracker](/resources/images/profile2.png)
+
+## Entrada de Datos – Etapa de clasificación inicial
+
+En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
+
+### 1) Seleccionar la etapa de clasificación y seleccionar la fecha de inicio
+
+![Clasificación](/resources/images/clasificacion1.png)
+
+### 2) Completar los datos de la persona notificadora
+
+![Clasificación](/resources/images/personanotificadora.png)
+
+### 3)  
