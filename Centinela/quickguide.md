@@ -277,7 +277,7 @@ Ingresar los parámetros deseados y hacer click en la lupa
 
 ### 1) Estando en la lista de casos, seleccionar uno de los filtros preconfigurados
 
-![Filtros preconfigurados](resources/images/filtros.png)
+![Filtros preconfigurados](resources/images/Filtros.png)
 
 ### 2) Que significan los símbolos?
 
@@ -295,4 +295,9 @@ Ingresar los parámetros deseados y hacer click en la lupa
 
 ![Lista](resources/images/listapersonalizada.png)
 
+### 2) Seleccionar las opciones para tu lista personalizada y click en "Buscar"
+
+![Lista](resources/images/listapersonalizada2.png) 
+
+### 3) Seleccionar la persona de la lista para ir a su perfil
 
