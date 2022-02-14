@@ -51,5 +51,25 @@ En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
 ![Clasificación](resources/images/completar.png)
 
+
 ------------------------
+
+## Entrada de Datos – Notificación ESAVI
+
+### 1) Con la etapa de Notificación ESAVI seleccionada, elegir la fecha de notificación ESAVI
+
+![Esavi Fecha](resources/images/esavifecha.png)
+
+### 2) Rellenar la información del paciente
+
+>Seleccione o ingrese todos los campos necesarios. Algunos permanecerán ocultos cuando no sean relevantes (Por ejemplo, los campos relacionados al embarazo solo aparecerán cuando se trate de pacientes de sexo femenino.
+
+![Esavi información del paciente](resources/images/esavipaciente.png)
+
+
+### 3) Complete los datos acerca de la vacuna que pudo estar relacionada con el ESAVI, o en el caso de una vacuna contra COVID-19, todas las dosis administradas.
+
+### 4) Complete los datos acerca del ESAVI 
+
+### 5) Completar el evento dandole click al botón "Completar"
 
