@@ -1,12 +1,12 @@
 # Guía rápida de entrada de datos para el PROGRAMA CENTINELA
 
-> Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos sinó los pasos mas b´sicos para ingresar un caso en el programa centinela 
+Esta guía es una ayuda para la entrada de datos, no contiene todos los pasos sinó los pasos mas básicos para ingresar un caso en el programa centinela 
 
 ## FLujo de trabajo
 
 ![Diagrama del flujo de trabajo](resources/images/flujo.png)
 
->Tanto ESAVIs como EVADIEs se registran en el mismo programa
+Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
 
 ---------------
@@ -20,9 +20,9 @@
 
 ### 2) Registrar una nueva persona
 
-> 1. Seleccionar la instalación correspondiente
-> 2. Seleccionar el Programa Centinela
-> 3. Click en "registrar"
+1. Seleccionar la instalación correspondiente
+2. Seleccionar el Programa Centinela
+3. Click en "registrar"
 
 ![Tracker](resources/images/enrollmentlist1.png)
 
@@ -40,7 +40,7 @@
 
 ## Entrada de Datos – Etapa de clasificación inicial
 
-> En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
+En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
 ### 1) Seleccionar la etapa de clasificación y seleccionar la fecha de inicio
 
@@ -79,11 +79,11 @@
 
 ![Esavi Selección de vacuna](resources/images/selecciondevacuna.png)
 
-> El nombre de la vacuna, fecha y hora de vacunación y número de lote son campos obligatorios
+El nombre de la vacuna, fecha y hora de vacunación y número de lote son campos obligatorios
 
 ### 4) Complete los datos acerca del ESAVI
 
-> Seleccione el ESAVI y la fecha de inicio
+Seleccione el ESAVI y la fecha de inicio
 
 ![Esavi Selección de vacuna](resources/images/datosesavi.png)
 
@@ -111,7 +111,7 @@
 
 > Importante: no es necesario completar la investigación si todavía faltan datos. Los datos ingresados serán guardados aún cuando el evento no esté completado.
 
->  ES NECESARIO AGREGAR MAS INFORMACIÒN EN ESTA GUÌA CUANDO ESTE CONFIGURADA LA ETAPA
+ES NECESARIO AGREGAR MAS INFORMACIÒN EN ESTA GUÌA CUANDO ESTE CONFIGURADA LA ETAPA
 
 ### 4) Completar la investigación dándole click al botón "Completar"
 
@@ -119,4 +119,30 @@
 
 ---------
 
+## Entrada de datos - Nivel Nacional
+
+Esta etapa está disponible solo para usuarios con un rol a nivel nacional.
+
+### 1) Teniendo la Etapa “Nivel Nacional” seleccionada, hacer click en el ‘+’ 
+
+![ESAVI Nacional](resources/images/nuevonacional.png)
+
+### 2) Seleccionar la fecha del reporte 
+
+![ESAVI Nacional](resources/images/fechanacional.png)
+
+### 3) Completar la ficha con los datos correspondientes 
+
+1. Seleccione las fechas orrespondientes
+2. Describa el diagnóstico final con texto libre
+3. Seleccione la clasificación y subclasificación correspondiente
+
+![ESAVI Nacional](resources/images/fichanacional.png)
+
+### 4) Completar la clasificación a nivel nacional dandole click al botón completar
+
+![ESAVI Completar](resources/images/completar.png)
+
+
+---------------------------
 
