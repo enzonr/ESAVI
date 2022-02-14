@@ -94,3 +94,29 @@
 ### 5) Completar el evento dandole click al botón "Completar"
 
 ![ESAVI Completar](resources/images/completar.png)
+
+------------
+
+## Entrada de datos - Investigación
+
+> IMPORTANTE: Para que la etapa de Investigación esté habilitada, deberá primero seleccionarse el elemento de datos “¿Se requiere investigación?” en la etapa de notificación ESAVI.
+
+### 1) Teniendo la etapa de Investigación seleccionada, hacer click en el ‘+’ para crear un evento
+
+![Investigación ](resources/images/nuevainvestigacion.png)
+
+### 2) Seleccionar la fecha del reporte y hacer click en “Guardar”
+
+### 3) Rellenar el formulario de investigación con sus datos correspondientes
+
+> Importante: no es necesario completar la investigación si todavía faltan datos. Los datos ingresados serán guardados aún cuando el evento no esté completado.
+
+>  ES NECESARIO AGREGAR MAS INFORMACIÒN EN ESTA GUÌA CUANDO ESTE CONFIGURADA LA ETAPA
+
+### 4) Completar la investigación dándole click al botón "Completar"
+
+![Investigación Completar](resources/images/completar.png)
+
+---------
+
+
