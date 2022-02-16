@@ -1,3 +1,46 @@
+# Introducción
+
+El programa Centinela es un programa de tracker para DHIS2 que registra datos de eventos de Efectos adversos supuestamente atribuíbles a la vacunación e inmunización (ESAVI) y efectos adversos de interés especial (EVADIE). Ha sido configurado basado en las directrices generales de la OPS y la OMS para ESAVIS. AGREGAR LINKS A DOCUMENTACIÓN.
+
+El programa cuenta con los catálogos de CIE, MEDDRA y WHODrug y esta mapeado a los requerimientos para transmición de datos a la base de datos mundial de farmacovigilancia.
+
+## Contenido
+
+El paquete del progama centinela cuenta con un componente de entrada de datos con validaciónes y reglas de programa, así como una lista de indicadores calculados basados en los datos ingresados y tableros con visualización de esos datos. 
+
+### Entrada de datos
+
+La entrada de datos está basada en el app core de DHIS2 [Tracker](https://dhis2.org/tracker/) que captura datos individuales longitudinales basados en eventos divididos en etapas no-repetibles. Las etapas han sido configuradas con formularios personalizados. Para información general acerca de como utilizar tracker, ver la [documentación] (https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/tracking-individual-level-data/tracker-capture.html).
+
+#### Flujo de trabajo
+
+
+
+#### Etapas
+El programa Centinela está dividido en cinco etapas. Para un resúmen de como ingresar datos, véase la guía rápida de uso del programa: LINK A QUICKGUIDE
+
+##### Etapa de clasificación inicial
+
+En esta etapa se determina si el evento es un ESAVI o EVADIE basado en una serie de preguntas. Dependiendo de la clasificación inicial se habilitarán las etapas correspondientes.
+
+##### Etapa EVADIE
+
+Solamente estaría disponible cuando el evento corresponde a un EVADIE.
+
+##### Etapa Notificación ESAVI
+
+La etapa de notificación ESAVI solo está disponible cuando ele vento corresponde a un ESAVI
+
+##### Etapa Investigación ESAVI
+
+La etapa de investigación ESAVI solamente cuando es especificado que el evento requiere una investigación.
+
+#### Etapa Clasificación final
+
+Esta etapa normalmente es accesible solamente a nivel distrito o nacional, y es donde se confirman los resultados del ESAVI y la clasificación final
+
+
+
 # Seguridad
 
 
@@ -42,113 +85,26 @@ Los roles de usuario que recomendamos para esta implementación son los siguient
 
 #### **Usuario de Entrada de datos - Tracker (Sin acceso a borrar una TEI)
  
-**Personas con este rol podrán ingresar datos y registrar personas tracker pero no podrán borrar eventos o registros de personas 
-
-Acceso (add/update public):
-Etapa de programa 
-Valor de datos 
-
-Acceso (add/update private): 
-Informe de evento  
-Mapa 
-Tabla de eventos 
-Tablero 
-Visualización 
- 
-Acceso (Delete)
-
-Informe de evento (privte) 
-Mapa (private) 
-Tabla de eventos (private) 
-Mapa (Private) 
-Visualización (private) 
-Valor de datos (Public) 
- 
-Aplicaciones: 
-Tracker Capture app 
- 
-Tracker(Rastreador) 
-Search tracked entity instance in all Org units 
-Update tracked entities 
- 
-Importar/exportar: 
--sin acceso 
-Sistema: 
--sin acceso
+Personas con este rol podrán ingresar datos y registrar personas tracker pero no podrán borrar eventos o registros de personas 
 
 
 #### **Usuario de Entrada de datos - Tracker**
 
 Personas con este rol podrán ingresar datos y registrar personas tracker y además podrán borrar eventos o registros de personas
 
-Acceso (add/update public): 
-Etapa de programa 
-Valor de datos 
- 
- 
-Acceso (add/update private): 
-Informe de evento  
-Mapa 
-Tabla de eventos 
-Tablero 
-Visualización
-
-Acceso (Delete)
-
-Informe de evento (private) 
-Mapa (private) 
-Tabla de eventos (private) 
-Mapa (Private) 
-Visualización (private) 
-Valor de datos (Public) 
- 
-Aplicaciones: 
-Tracker Capture app 
- 
-Tracker(Rastreador) 
-Delete enrollment and associated events 
-Delete tracked entity instance and associated enrollments and events 
-Search tracked entity instance in all Org units 
-Update tracked entities 
- 
-Importar/exportar: 
--sin acceso 
-Sistema: 
--sin acceso 
-
-
-
 #### Supervisor (de país/distrito) *
 
-Este usuario podrá acceder y editar todos los datos dentro de tracker. COmbinar con las org units necesarias para asignarles un distrito/pais \
-- 
-- 
-- 
-- 
-
+Este usuario podrá acceder y editar todos los datos dentro de tracker. COmbinar con las org units necesarias para asignarles un distrito/pais 
 
 #### Creación y edición de usuarios
-Este rol permitirá crear y editar usuarios existentes. Es recomendado que cada país distribuya este rol como sea conveniente. \
-- 
-- 
-- 
+Este rol permitirá crear y editar usuarios existentes. Es recomendado que cada país distribuya este rol como sea conveniente. 
 
 
 #### Configurador de metadatos
 Acceso a la app de mantenimiento para modificar programas, elementos de datos, indicadores, etc. 
 
--
--
--
-- 
-
-
 #### Superusuario Regional
-Acceso a todos los roles. Este acceso debería ser altamente restringido en la instancia de producción \
-  
-X 
-Y 
-Z 
+Acceso a todos los roles. Este acceso debería ser restringido al minimo de usuarios en la instancia de producción  
 
 
 
@@ -169,3 +125,5 @@ Para una implementación regional, se recomiendan las siguientes combinaciones d
 | Metadata Admin (OPS)      | Podrá editar los formularios, tableros e indicadores, pero no ver datos   | Todas                                                 | Sin Acceso               | Ver y Editar | Ver y Editar | Configurador de metadatos                                             |
 | Administrador de usuarios | Podrá crear y asignar usuarios a distintos roles y unidades organizativas | Unidades del país /Distrito/propias segun corresponda | NO                       | NO           | NO           | Creación y edición de usuarios                                        |
 | Superusuario              | Si                                                                        | Todas                                                 | Ver y Editar             | Ver y Editar | Ver y Editar | Todas                                                                 |
+
+
