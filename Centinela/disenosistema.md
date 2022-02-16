@@ -4,7 +4,7 @@ El programa Centinela es un programa de tracker para DHIS2 que registra datos de
 
 El programa cuenta con los catálogos de CIE, MEDDRA y WHODrug y esta mapeado a los requerimientos para transmición de datos a la base de datos mundial de farmacovigilancia.
 
-## Acceso
+## Acceso a producción
 
 LINK A LA INSTANCIA
 
@@ -70,19 +70,26 @@ En DHIS2, el tipo de acceso de un usuario está determinado por tres elementos b
  
 El rol del usuario  
 El grupo del usuario  
-Las unidades organizativas a las que el usuario tiene acceso.
+Las unidades organizativas a las que el usuario tiene acceso
 
- 
-Un usuario podrá  tener más de un rol, y formar parte de más de un grupo de usuarios para de esa manera obtener el acceso necesario para desempeñar su tarea.
- 
-Por mas información ver [la documentación de DHIS2](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/users-roles-and-groups.html)
+Un usuario podrá  tener más de un rol, y formar parte de más de un grupo de usuarios para de esa manera obtener el acceso necesario para desempeñar su tarea. Por mas información ver [la documentación de DHIS2](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/users-roles-and-groups.html)
 
+Dentro de un programa, el tipo de acceso es configurable a todo el programa o a cada etapa de programa. Un programa podrá otorgarle distintos niveles de acceso a distintos grupos de usuario. Además, el acceso de búsqueda en general también puede configurarse basado en el programa.
+
+
+
+### Configuración de búsqueda
+
+El programa está configurado como protegido para proteger los datos de identificación personal del acceso no autorizado. Esto significa que un usuario puede editar y ver personas que son propiedad de la(s) unidad(es) de la organización a las que el usuario tiene asignado acceso de captura de datos, pero su alcance de búsqueda debe ser más amplio que su alcance de lectura/escritura para garantizar que identificarán cualquier persona ya existente durante una búsqueda, incluso si no pertenecen a su unidad organizativa. Si la búsqueda devuelve una persona que ya exista fuera de su unidad organizativa, se le presenta al usuario la opción de acceder al registro del paciente, debiendo primero justificar el acceso. Este enfoque de la privacidad se conoce como 'romper el cristal' (COMO SE TRADUCE ESTO???) , ya que permite que el usuario tome la decisión de acceder al registro sin permiso o asistencia externa, pero deja un rastro claro para ser auditado. Una vez que el usuario da una razón para romper el vidrio, obtiene la propiedad temporal de la instancia de la entidad rastreada (consulte la Guía del usuario de Tracker para obtener más información).
+
+Los usuarios que completarán la etapa de clasificación final probablemente estarán basados a nivel nacional o de distrito. Para atribuir correctamente los datos a la unidad organizativa donde se administró la inmunización, este usuario a nivel de distrito/nacional debe tener acceso de lectura/escritura a todas las unidades organizativas de las que es responsable.
 
 ### Unidades organizativas:
 
-Son configuradas por usuario y determinan el acceso que pueda tener el usuario dentro del organigrama. 
+Son configuradas por usuario y por programa determinan el acceso que pueda tener el usuario dentro del organigrama. 
 Una persona que tenga acceso a una unidad que tenga mas niveles por debajo, por lo general tendrá también acceso a esos niveles.
 Recomendamos que en esta implementación los usuarios de entrada de datos solo tengan acceso a su propia unidad organizativa, y que se determine según su rol que nivel de acceso deberán tener los usuarios que trabajen en capacidad nacional o regional. 
+
 
 
 ### Roles de usuario:
@@ -123,7 +130,7 @@ Acceso a todos los roles. Este acceso debería ser restringido al minimo de usua
  Los grupos de usuario sirven para dar acceso a los distintos programas (por ejemplo, el programa de ESAVI o el Programa Centinela). Y regular que nivel de acceso tienen los usuarios dentro de ese grupo al programa. 
 El nivel de acceso está basado en datos y metadatos, y en poder ver o editar, y deberá ser combinado con el rol de usuario y aceso a la unidad organizativa correspondiente.
 
-Para una implementación regional, se recomiendan las siguientes combinaciones de grupo de usuario / rol / acceso a unidad organizativa:
+Para una implementación regional, se recomiendan las siguientes combinaciones de grupo de usuario / rol / acceso a unidad organizativa, que deberán replicarse para acada programa.
 
 
 | User group                | Descripción                                                               | Org unit access                                       | Datos                    | Metadatos    | Analytics    | Roles                                                                 |
