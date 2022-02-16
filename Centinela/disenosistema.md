@@ -4,6 +4,13 @@ El programa Centinela es un programa de tracker para DHIS2 que registra datos de
 
 El programa cuenta con los catálogos de CIE, MEDDRA y WHODrug y esta mapeado a los requerimientos para transmición de datos a la base de datos mundial de farmacovigilancia.
 
+## Acceso
+
+LINK A LA INSTANCIA
+
+CORREO DE SOPORTE por país/regional?
+
+
 ## Contenido
 
 El paquete del progama centinela cuenta con un componente de entrada de datos con validaciónes y reglas de programa, así como una lista de indicadores calculados basados en los datos ingresados y tableros con visualización de esos datos. 
@@ -14,7 +21,7 @@ La entrada de datos está basada en el app core de DHIS2 [Tracker](https://dhis2
 
 #### Flujo de trabajo
 
-
+![Diagrama del flujo de trabajo](resources/images/flujo.png) 
 
 #### Etapas
 El programa Centinela está dividido en cinco etapas. Para un resúmen de como ingresar datos, véase la guía rápida de uso del programa: LINK A QUICKGUIDE
@@ -38,21 +45,6 @@ La etapa de investigación ESAVI solamente cuando es especificado que el evento 
 #### Etapa Clasificación final
 
 Esta etapa normalmente es accesible solamente a nivel distrito o nacional, y es donde se confirman los resultados del ESAVI y la clasificación final
-
-
-
-# Seguridad
-
-
-##  Los desafíos/premisas a responder son:
-
-
-
-* cómo lograr un nivel de seguridad adecuado para la base de datos con datos sensibles (personales y de salud) de una organización internacional, con el objetivo de prevenir brechas de seguridad y daño reputacional (encriptación de BBDD no sería posible; encriptación de datos personales presentes como tracked entity attributes es posible, pero tiene consecuencias negativas en la búsqueda desde Tracker; encriptación de data elements no sería posible?)
-* cómo lograr que los países sólo puedan ver los datos correspondientes a su país, sin importar el nivel de acceso/tipo de rol que se les provea. Debería respetar las OrgUnits de cada país, pero quedar también muy claro en otras configuraciones como Search settings, etc.
-* cómo lograr que PAHO vea los datos de todos los países, pero no vea los datos de identificación de pacientes y profesionales (nombre, apellido, ID nacional, dirección, teléfono, email, entre otros).
-* cómo elaborar una política de seguridad de OPS para DHIS2. Pedir ejemplos de documentos/políticas de seguridad (reales) de otras organizaciones en situaciones similares: PSI, países, etc.
-
 
 ##  Acceso, usuarios y roles
  
