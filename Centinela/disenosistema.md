@@ -46,6 +46,24 @@ La etapa de investigación ESAVI solamente cuando es especificado que el evento 
 
 Esta etapa normalmente es accesible solamente a nivel distrito o nacional, y es donde se confirman los resultados del ESAVI y la clasificación final
 
+### Analíticas
+
+DHIS2 calcula indicdores bsados en los datos y genera visualizaciones preconfiguradas que son principalmente mostradas en los tableros de información. Usuarios, dependiendo de su acceso, pueden crear sus propias visualizaciónes, mapas gráficas e indicadores.
+
+Los indicadores en DHIS2 son cálculos basados en elementos de datos, y se dividen en indicadores simples (Numerador/denominador) e indicadores de programa (basados en un conteo por filtros). Elementos de datos que puedan accederse sin tener que incluír calculos o filtros sona gregados automaticamente. Por mas información acerca de indicadores e indicadores de programa en DHIS2 ver la documentación.
+ 
+#### Indicadores de programa
+Documentación: https://docs.dhis2.org/en/use/android-app/program-indicators-supported.html 
+Lista de indicadores incluídos: XXXXX
+
+#### Indicadores 
+Documentación: https://docs.dhis2.org/en/implement/database-design/aggregate-system-design/indicators.html#:~:text=In%20DHIS2%2C%20the%20indicator%20is,do%20not%20have%20a%20denominator.
+Lista de indicadores incluídos: XXXXX
+
+#### Tableros
+
+LISTA DE TABLEROS INCLUÌDOS CON DESCRIPCION GENERAL 
+
 ##  Acceso, usuarios y roles
  
 En DHIS2, el tipo de acceso de un usuario está determinado por tres elementos básicos: 
@@ -60,14 +78,14 @@ Un usuario podrá  tener más de un rol, y formar parte de más de un grupo de u
 Por mas información ver [la documentación de DHIS2](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/users-roles-and-groups.html)
 
 
-## Unidades organizativas:
+### Unidades organizativas:
 
 Son configuradas por usuario y determinan el acceso que pueda tener el usuario dentro del organigrama. 
 Una persona que tenga acceso a una unidad que tenga mas niveles por debajo, por lo general tendrá también acceso a esos niveles.
 Recomendamos que en esta implementación los usuarios de entrada de datos solo tengan acceso a su propia unidad organizativa, y que se determine según su rol que nivel de acceso deberán tener los usuarios que trabajen en capacidad nacional o regional. 
 
 
-## Roles de usuario:
+### Roles de usuario:
 
 En los roles de usuario se pueden configurar de manera granular, a que aplicaciones (Por ejemplo, entrada de datos, Mapas, etc) y permisos (por ejemplo, crear, borrar, modificar, etc) tiene acceso.
 A nivel de instancia deberá haber al menos un superusuario que tenga acceso a todas o a la mayoría de las acciones. 
@@ -100,7 +118,7 @@ Acceso a todos los roles. Este acceso debería ser restringido al minimo de usua
 
 
 
-## Grupos de usuario:
+### Grupos de usuario:
 
  Los grupos de usuario sirven para dar acceso a los distintos programas (por ejemplo, el programa de ESAVI o el Programa Centinela). Y regular que nivel de acceso tienen los usuarios dentro de ese grupo al programa. 
 El nivel de acceso está basado en datos y metadatos, y en poder ver o editar, y deberá ser combinado con el rol de usuario y aceso a la unidad organizativa correspondiente.
