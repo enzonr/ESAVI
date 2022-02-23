@@ -34,8 +34,8 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
 ### 2) Registrar una nueva persona
 
-1. Seleccionar la instalación correspondiente
-2. Seleccionar el Programa Centinela
+1. Seleccionar el Hospital correspondiente
+2. Seleccionar el Programa "Módulo Centinela"
 3. Click en "registrar"
 
 ![Tracker](resources/images/enrollmentlist1.png)
@@ -70,7 +70,6 @@ En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 ### 4) Seleccione el botón "completar"
 
 ![Clasificación](resources/images/completar.png)
-
 
 ------------------------
 
@@ -107,11 +106,14 @@ Seleccione el ESAVI y la fecha de inicio
 
 ![Esavi Selección de vacuna](resources/images/esavidetalle.png)
 
-### 5) Completar el evento dandole click al botón "Completar"
+### 5) Completar el formulario dandole click al botón "Completar"
 
 ![ESAVI Completar](resources/images/completar.png)
 
+Los datos son guardados automáticamente cuando se ingresan, el botón de completar se utiliza para indicar que el formualrio ya está completo. 
+
 ------------
+
 
 ## Entrada de datos - Investigacion
 
@@ -159,8 +161,8 @@ Esta etapa está disponible solo para usuarios con un rol a nivel nacional.
 
 ![ESAVI Completar](resources/images/completar.png)
 
-
 ---------------------------
+
 
 ## Entrada de datos EVADIE
 
