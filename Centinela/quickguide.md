@@ -117,7 +117,7 @@ Los datos son guardados automáticamente cuando se ingresan, el botón de comple
 
 ## Entrada de datos - Investigacion
 
-> IMPORTANTE: Para que la etapa de Investigación esté habilitada, deberá primero seleccionarse el elemento de datos “¿Se requiere investigación?” en la etapa de notificación ESAVI.
+> IMPORTANTE: Para que la etapa de Investigación esté habilitada, deberá primero seleccionarse la opción “¿Se requiere investigación?” en la etapa de notificación ESAVI.
 
 ### 1) Teniendo la etapa de Investigación seleccionada, hacer click en el ‘+’ para crear un evento
 
