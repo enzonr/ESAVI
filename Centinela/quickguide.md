@@ -137,11 +137,11 @@ ES NECESARIO AGREGAR MAS INFORMACIÒN EN ESTA GUÌA CUANDO ESTE CONFIGURADA LA E
 
 ---------
 
-## Entrada de datos - Nivel Nacional
+## Entrada de datos - Nivel Superior
 
-Esta etapa está disponible solo para usuarios con un rol a nivel nacional.
+Esta etapa está disponible solo para usuarios con un rol especifico que les permita indicar una clasificacion final.
 
-### 1) Teniendo la Etapa “Nivel Nacional” seleccionada, hacer click en el ‘+’ 
+### 1) Teniendo la Etapa “Nivel superior” seleccionada, hacer click en el ‘+’ 
 
 ![ESAVI Nacional](resources/images/nuevonacional.png)
 
@@ -149,11 +149,12 @@ Esta etapa está disponible solo para usuarios con un rol a nivel nacional.
 
 ![ESAVI Nacional](resources/images/fechanacional.png)
 
-### 3) Completar la ficha con los datos correspondientes 
+### 3) Completar la ficha con seleccionando la causalidad por orden de importancia
 
-1. Seleccione las fechas orrespondientes
-2. Describa el diagnóstico final con texto libre
-3. Seleccione la clasificación y subclasificación correspondiente
+1. Seleccionar la causalidad identificada de mayor prioridad indicandolo con el numero 1
+2. Seleccionar la subclasificacion correspondiente
+3. Si hubiesen mas causalidades identificadas, seleccionar el orden de prioridad (2 o 3)
+4. En caso de que la informacion adecuada no este disponible, seleccionar opcin D "No clasificable"
 
 ![ESAVI Nacional](resources/images/fichanacional.png)
 
