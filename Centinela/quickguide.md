@@ -91,9 +91,9 @@ Si la respuesta a la pregunta 9 es "si" se habilitaran las opciones para indicar
 ## Entrada de Datos – Notificacion ESAVI
 
 
-### 1) Con la etapa de Notificación ESAVI seleccionada, elegir la fecha de notificación ESAVI
+### 1) Click en el signo "+" y seleccionar la etapa "ESAVI", seleccionar la fecha, click en guardar. 
 
-![Esavi Fecha](resources/images/esavifecha.png)
+![Esavi Fecha](resources/images/esavinuevo.png)
 
 ### 2) Rellenar la información del paciente
 
