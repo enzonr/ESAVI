@@ -57,17 +57,31 @@ Tanto ESAVIs como EVADIEs se registran en el mismo programa
 
 En esta etapa se clasifican los casos y se decide si es un ESAVI o un EVADIE
 
-### 1) Seleccionar la etapa de clasificación y seleccionar la fecha de inicio
+### 1) Seleccionar la fecha de inicio de llenado de la ficha
+
+La etapa de clasificacion esta configurada para que aparezca automaticamente una vez registrada la persona.
 
 ![Clasificación](resources/images/clasificacion1.png)
 
 ### 2) Completar los datos de la persona notificadora
 
+Algunos de los datos (nombre / correo electronico) están basados en el usuario
+
 ![Clasificación](resources/images/personanotificadora.png)
 
-### 3)  MODIFICAR EL RESTO DE LAS INSTRUCCIONES PARA LA ETAPA DE CLASIFICACIón CUANDO ESTÈ LISTA
+### 3) Indique si el evento es un Evento adverso de Interes Especial
 
-### 4) Seleccione el botón "completar"
+Si la respuesta a la pregunta 9 es "si" se habilitaran las opciones para indicar que tipo de evento adverso de interés especial se está registrando
+
+![Clasificación](resources/images/clasificacion2.png)
+
+### 3) Indicar si el evento es un Evento adverso de Interes Especial
+
+### 4) COmpletar las preguntas 11, 12 y 13 dependiendo de las circumstancias del evento
+
+![Clasificación](resources/images/clasificacion3.png)
+
+### 5) Seleccione el botón "completar"
 
 ![Clasificación](resources/images/completar.png)
 
