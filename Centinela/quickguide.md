@@ -95,7 +95,7 @@ Si la respuesta a la pregunta 9 es "si" se habilitaran las opciones para indicar
 
 ### 2) Rellenar la información del paciente
 
->Seleccione o ingrese todos los campos necesarios. Algunos permanecerán ocultos cuando no sean relevantes (Por ejemplo, los campos relacionados al embarazo solo aparecerán cuando se trate de pacientes de sexo femenino.
+>Seleccione o ingrese todos los campos necesarios. Algunos permanecerán ocultos cuando no sean relevantes (Por ejemplo, los campos relacionados al embarazo solo aparecerán cuando se trate de pacientes de sexo femenino, y los campos relacionados con los antecedentes farmacológicos solo apareceran si el paciente estaba consumiendo medicamentos en el momento de la vacunación)
 
 ![Esavi informacion del paciente](resources/images/ESAVIpaciente.png)
 
@@ -114,7 +114,7 @@ Seleccione el ESAVI y la fecha de inicio
 
 ![Esavi Selección de vacuna](resources/images/datosesavi.png)
 
-> Describa el ESAVI en detalle. Si es un evento grave se habilitan las opciones para reportarlo
+> Describa el ESAVI en detalle. Si es un evento grave se habilitan las opciones para reportarlo. Si es requerida una investigación, esto habilita el formulario de investigación.
 
 ![Esavi Selección de vacuna](resources/images/esavidetalle.png)
 
