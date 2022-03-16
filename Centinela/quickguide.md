@@ -157,11 +157,7 @@ Esta etapa está disponible solo para usuarios con un rol especifico que les per
 
 ![ESAVI Nacional](resources/images/nuevonacional.png)
 
-### 2) Seleccionar la fecha del reporte 
-
-![ESAVI Nacional](resources/images/fechanacional.png)
-
-### 3) Completar la ficha con seleccionando la causalidad por orden de importancia
+### 2) Completar la ficha con seleccionando la causalidad por orden de importancia
 
 1. Seleccionar la causalidad identificada de mayor prioridad indicandolo con el numero 1
 2. Seleccionar la subclasificacion correspondiente
@@ -170,7 +166,7 @@ Esta etapa está disponible solo para usuarios con un rol especifico que les per
 
 ![ESAVI Nacional](resources/images/fichanacional.png)
 
-### 4) Completar la clasificación a nivel nacional dandole click al botón completar
+### 3) Completar la clasificación a nivel nacional dandole click al botón completar
 
 ![ESAVI Completar](resources/images/completar.png)
 
