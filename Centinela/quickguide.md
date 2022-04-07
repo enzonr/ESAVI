@@ -75,11 +75,11 @@ Si la respuesta a la pregunta 9 es "si" se habilitaran las opciones para indicar
 
 ![Clasificación](resources/images/clasificacion2.png)
 
-### 4) Completar las preguntas 11, 12 y 13 dependiendo de las circumstancias del evento
+### 4) Completar las preguntas 11, 12 y 13 dependiendo de las circunstancias del evento. Dependiendo de las respuestas se activará la ficha para ESAVI o EVADIE.
 
 ![Clasificación](resources/images/clasificacion3.png)
 
-### 6) Seleccione el botón "completar"
+### 5) Seleccione el botón "completar"
 
 ![Clasificación](resources/images/completar.png)
 
