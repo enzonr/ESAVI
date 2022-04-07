@@ -255,6 +255,8 @@ Ingresar los parámetros deseados y hacer click en la lupa
 
 ## Utilizando la lista de trabajo personalizada 
 
+La lista de trabajo personalizada nos permite aplicar un conjunto de filtros a la lista de pacientes para poder trabajar mas comodamente con un sub-grupo de casos.
+
 ### 1) Seleccionar "lista de trabajo personalizada"
 
 ![Lista](resources/images/listapersonalizada.png)
