@@ -181,19 +181,29 @@ Esta etapa está disponible solo para usuarios con un rol especifico que les per
 
 ### 2) Rellenar los datos del efecto adverson siguiendo el orden del formulario
 
-1.Marque la(s) opción(es) correspondientes.
-> Cada opción seleccionada desplegará una nueva sección con mas detalles.
+1.Describa los signos y síntomas del EVADIE.
+> Puede ser más de uno.
 2. Selecciona la fecha y hora del inicio de los síntomas
-3. Describa los síntomas utilizando texto libre
+3. Seleccione que ha causado el EVADIE
+3. Seleccionar el estado de evolución del paciente en el momento de la notificación
 
 ![EVADIE Ficha](resources/images/EVADIEficha.png)
 
+### 3)  Rellenar los datos de historia clínica del paciente
 
-### 3)  Rellenar los datos referentes al resultado del EVADIE
+1. Seleccionar las condiciones de la lista prediseñada
+> Se pueden añadir hasta nueve condiciones
+2. Identificar si el paciente estaba consumiendo medicamentos al momento del inicio del evento. 
+> EN el caso que lo estuviese, se deberán rellenar los antecedentes farmacológicos
+
+
+![EVADIE Sintomas](resources/images/EVADIEsintomas.png)
+
+### 4)  Rellenar los datos referentes al resultado del EVADIE
 
 1. Seleccionar los resultados del EVADIE
 
-![EVADIE Ficha](resources/images/EVADIEficha.png)
+
 
 2. Seleccione utilizando la lista desplegable,  el estado del paciente al momento de la identificación del EVADIE
 
