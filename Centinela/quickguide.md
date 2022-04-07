@@ -185,69 +185,31 @@ Esta etapa está disponible solo para usuarios con un rol especifico que les per
 > Puede ser más de uno.
 2. Selecciona la fecha y hora del inicio de los síntomas
 3. Seleccione que ha causado el EVADIE
-3. Seleccionar el estado de evolución del paciente en el momento de la notificación
+4. Seleccionar el estado de evolución del paciente en el momento de la notificación
+> En el caso de muerte, se habilitan los datos del fallecimiento que deberán ser rellenados
 
 ![EVADIE Ficha](resources/images/EVADIEficha.png)
 
-### 3)  Rellenar los datos de historia clínica del paciente
+### 3)  Rellenar los datos de historia médica del paciente
 
 1. Seleccionar las condiciones de la lista prediseñada
 > Se pueden añadir hasta nueve condiciones
 2. Identificar si el paciente estaba consumiendo medicamentos al momento del inicio del evento. 
-> EN el caso que lo estuviese, se deberán rellenar los antecedentes farmacológicos
-
+> En el caso que lo estuviese, se despliega la sección de antecedentes farmacológicos
+3. Seleccionar los medicamentos de la lista y rellenar el resto de los datos. 
+>Si el medicamento no está disponible en la lista, escribirlo en los campos de texto libre
 
 ![EVADIE Sintomas](resources/images/EVADIEsintomas.png)
-
-### 4)  Rellenar los datos referentes al resultado del EVADIE
-
-1. Seleccionar los resultados del EVADIE
+![EVADIE Medicamentos](resources/images/EVADIEmedicamentos.png)
 
 
+### 4)  Rellenar los datos referentes al diagnóstico de egreso del EVADIE
 
-2. Seleccione utilizando la lista desplegable,  el estado del paciente al momento de la identificación del EVADIE
+Utilizando los elementos desplegables, seleccionar el diagnóstico de Egreso del EVADIE (Si el paciente falleció registrar el diagnóstico la causa de muerte).
 
-![EVADIE Ficha](resources/images/EVADIEresultados.png)
+![Clasificación](resources/images/EVADIEdiagnostico.png)
 
-Seleccione utilizando la lista desplegable,  el estado del paciente al momento de la identificación del EVADIE
-
-![EVADIE Ficha](resources/images/EVADIEresultados2.png)
-
-3. En caso de fallecimiento, se habilita la entrada de datos en los elementos correspondientes 
-
-![EVADIE Ficha](resources/images/EVADIEresultados3.png)
-
-### 4) Rellenar los datos relacionados a la salud general del paciente
-
-1. Seleccionar hasta seis distintas enfermedades previas utilizando las listas.
-
-![EVADIE Ficha](resources/images/EVADIEsaludpaciente.png)
-
-Rellenar datos de embarazo, si corresponde
-
-![EVADIE Ficha](resources/images/EVADIEsaludpaciente2.png)
-
-2. Seleccionar los medicamentos que esté tomando el caso utilizando el buscador, y rellenar los datos correspondientes.
-
-![EVADIE Ficha](resources/images/EVADIEsaludpaciente3.png)
-
-3. Seleccionar los hábitos de consumo 
-
-![EVADIE Ficha](resources/images/EVADIEsaludpaciente4.png)
-
-### 5) Rellenar los datos acerca de las vacunas contra el Covid-19
-
-Los nombres de las vacunas están basados en listas predeterminadas, otros datos son rellenados de manera manual.
-
-![EVADIE Ficha](resources/images/EVADIEvacunas.png)
-
-### 6) Rellenar los datos acerca de otras vacunas recibidas 30 días antes del EVADIE
-
-Los nombres de las vacunas están basados en listas predeterminadas, otros datos son rellenados de manera manual.
-
-![EVADIE Ficha](resources/images/EVADIEvacunas2.png)
-
-### 7) Completar el evento
+### 5) Completar el evento
 
 ![Clasificación](resources/images/completar.png)
 
